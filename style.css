@@ -3,7 +3,7 @@
     --secondary-color: #10b981;
     --dark-color: #1e293b;
     --light-bg: #f8fafc;
-    --white: #ffffff;
+    --green: #ffffff;
     --text-gray: #64748b;
 }
 
@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: green;
+    background-color: white;
     color: var(--dark-color);
     overflow-x: hidden;
 }
@@ -137,7 +137,7 @@ nav a.active {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(1,0,0,0.6);
+    background: rgba(0,0,0,0.6);
 }
 
 .hero-content {
